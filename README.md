@@ -20,7 +20,7 @@ The scripts uses Perl, Python3, and R.
 ### Download and installation
 
 Download scripts from github:
-`git clone http://github.com/dinhdiep/snare-seq2_tools`
+`git clone http://github.com/dinhdiep/snare_seq2`
 
 There are two main scripts: `SeqToFrag.sh`, `SeqToRDS.sh`. 
 
