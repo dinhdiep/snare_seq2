@@ -33,7 +33,6 @@ raw_R3=`find $raw_fastq_dir -name '*_R3*fastq.gz' -print | grep $fastq_id`
 python $snare2_bin/demultiplex_SNARE2.py \
   $raw_R1 $raw_R2 $raw_R3 $fastq_id $snare2_config/R1_barcode_cfg $snare2_config/R1_barcode_list_SNARE2
 
-exit 0;
 
 sample_files=`ls $list_dir/* | cat | sort`
 
